@@ -12,5 +12,10 @@ public class TestController {
 	public String sayHello() {
 		return "Hello from Super-App";
 	}
+	
+	@GetMapping("/2.0/hello")
+	public String hello() {
+		return "Hello from Super-App: Updater to 2.0";
+	}
 
 }
